@@ -46,6 +46,7 @@ section {
 
 .row {
     display: flex;
+    background-color: black;
 }
 
 .column {
@@ -59,4 +60,10 @@ section {
 .fka-video {
     padding-left: 100px;
     background-color: black;
+}
+
+.fka-video-text {
+    background-color: black;
+    color: grey;
+    padding-left: 200px;
 }
