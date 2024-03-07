@@ -16,6 +16,10 @@ section {
     margin: 0px;
 }
 
+.body {
+    background-color: black;
+}
+
 .topimg {
     height: 100px;
 }
@@ -69,15 +73,19 @@ section {
     padding-right: 200px;
 }
 
+.march-review {
+    color: grey;
+    margin-left: 100px
+}
+
 .march-container {
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
     gap: 20px;
     padding: 100px;
     padding-top: 50px;
     
-    height: 300px;
-    background-color: black;
     color: white;
 }
 
@@ -88,8 +96,6 @@ section {
     padding: 25px;
     flex-grow: 1;
 }
-
-
 
 .march-subcontainer {
     display: flex;
