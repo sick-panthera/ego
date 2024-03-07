@@ -90,18 +90,39 @@ section {
 }
 
 .march-item {
-    border-width: 3px;
-    border-style: double;
+    border-width: 1px;
+    border-style: solid;
     border-color: grey;
     padding: 25px;
     flex-grow: 1;
 }
 
 .march-subcontainer {
+    flex-basis: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
 
     background-color: black;
+}
+
+.bodega {
+    flex-basis: 300px;
+}
+
+.bodega-cocktails {
+    width: 300px;
+}
+
+.YU {
+    flex-basis: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.coconut-cocktail {
+    width: 200px;
 }
