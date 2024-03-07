@@ -68,3 +68,34 @@ section {
     padding-left: 200px;
     padding-right: 200px;
 }
+
+.march-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 100px;
+    padding-top: 50px;
+    
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+.march-item {
+    border-width: 3px;
+    border-style: double;
+    border-color: grey;
+    padding: 25px;
+    flex-grow: 1;
+}
+
+
+
+.march-subcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+    background-color: black;
+}
